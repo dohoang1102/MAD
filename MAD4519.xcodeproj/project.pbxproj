@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2469CC7148E80A5002228C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2469CC6148E80A5002228C2 /* UIKit.framework */; };
+		F2469CC9148E80A5002228C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2469CC8148E80A5002228C2 /* Foundation.framework */; };
+		F2469CCB148E80A5002228C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2469CCA148E80A5002228C2 /* CoreGraphics.framework */; };
+		F2469CD1148E80A5002228C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2469CCF148E80A5002228C2 /* InfoPlist.strings */; };
+		F2469CD3148E80A5002228C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2469CD2148E80A5002228C2 /* main.m */; };
+		F2469CD7148E80A5002228C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2469CD6148E80A5002228C2 /* AppDelegate.m */; };
+		F2469CDA148E80A5002228C2 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2469CD9148E80A5002228C2 /* RootViewController.m */; };
+		F2469CDD148E80A5002228C2 /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2469CDC148E80A5002228C2 /* DataViewController.m */; };
+		F2469CE0148E80A6002228C2 /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2469CDF148E80A6002228C2 /* ModelController.m */; };
+		F2469CE3148E80A6002228C2 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2469CE1148E80A6002228C2 /* MainStoryboard_iPhone.storyboard */; };
+		F2469CE6148E80A6002228C2 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2469CE4148E80A6002228C2 /* MainStoryboard_iPad.storyboard */; };
+		F2469CEE148E80A6002228C2 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2469CED148E80A6002228C2 /* SenTestingKit.framework */; };
+		F2469CEF148E80A6002228C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2469CC6148E80A5002228C2 /* UIKit.framework */; };
+		F2469CF0148E80A6002228C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2469CC8148E80A5002228C2 /* Foundation.framework */; };
+		F2469CF8148E80A6002228C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2469CF6148E80A6002228C2 /* InfoPlist.strings */; };
+		F2469CFB148E80A6002228C2 /* MAD4519Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2469CFA148E80A6002228C2 /* MAD4519Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2469CF1148E80A6002228C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2469CB9148E80A5002228C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2469CC1148E80A5002228C2;
+			remoteInfo = MAD4519;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F2469CC2148E80A5002228C2 /* MAD4519.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAD4519.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2469CC6148E80A5002228C2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F2469CC8148E80A5002228C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F2469CCA148E80A5002228C2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F2469CCE148E80A5002228C2 /* MAD4519-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MAD4519-Info.plist"; sourceTree = "<group>"; };
+		F2469CD0148E80A5002228C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F2469CD2148E80A5002228C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2469CD4148E80A5002228C2 /* MAD4519-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MAD4519-Prefix.pch"; sourceTree = "<group>"; };
+		F2469CD5148E80A5002228C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F2469CD6148E80A5002228C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F2469CD8148E80A5002228C2 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		F2469CD9148E80A5002228C2 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		F2469CDB148E80A5002228C2 /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		F2469CDC148E80A5002228C2 /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		F2469CDE148E80A5002228C2 /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
+		F2469CDF148E80A6002228C2 /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		F2469CE2148E80A6002228C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		F2469CE5148E80A6002228C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		F2469CEC148E80A6002228C2 /* MAD4519Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAD4519Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2469CED148E80A6002228C2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F2469CF5148E80A6002228C2 /* MAD4519Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MAD4519Tests-Info.plist"; sourceTree = "<group>"; };
+		F2469CF7148E80A6002228C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F2469CF9148E80A6002228C2 /* MAD4519Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAD4519Tests.h; sourceTree = "<group>"; };
+		F2469CFA148E80A6002228C2 /* MAD4519Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAD4519Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2469CBF148E80A5002228C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2469CC7148E80A5002228C2 /* UIKit.framework in Frameworks */,
+				F2469CC9148E80A5002228C2 /* Foundation.framework in Frameworks */,
+				F2469CCB148E80A5002228C2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2469CE8148E80A6002228C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2469CEE148E80A6002228C2 /* SenTestingKit.framework in Frameworks */,
+				F2469CEF148E80A6002228C2 /* UIKit.framework in Frameworks */,
+				F2469CF0148E80A6002228C2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2469CB7148E80A5002228C2 = {
+			isa = PBXGroup;
+			children = (
+				F2469CCC148E80A5002228C2 /* MAD4519 */,
+				F2469CF3148E80A6002228C2 /* MAD4519Tests */,
+				F2469CC5148E80A5002228C2 /* Frameworks */,
+				F2469CC3148E80A5002228C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2469CC3148E80A5002228C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2469CC2148E80A5002228C2 /* MAD4519.app */,
+				F2469CEC148E80A6002228C2 /* MAD4519Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2469CC5148E80A5002228C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2469CC6148E80A5002228C2 /* UIKit.framework */,
+				F2469CC8148E80A5002228C2 /* Foundation.framework */,
+				F2469CCA148E80A5002228C2 /* CoreGraphics.framework */,
+				F2469CED148E80A6002228C2 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2469CCC148E80A5002228C2 /* MAD4519 */ = {
+			isa = PBXGroup;
+			children = (
+				F2469CD5148E80A5002228C2 /* AppDelegate.h */,
+				F2469CD6148E80A5002228C2 /* AppDelegate.m */,
+				F2469CD8148E80A5002228C2 /* RootViewController.h */,
+				F2469CD9148E80A5002228C2 /* RootViewController.m */,
+				F2469CDB148E80A5002228C2 /* DataViewController.h */,
+				F2469CDC148E80A5002228C2 /* DataViewController.m */,
+				F2469CDE148E80A5002228C2 /* ModelController.h */,
+				F2469CDF148E80A6002228C2 /* ModelController.m */,
+				F2469CE1148E80A6002228C2 /* MainStoryboard_iPhone.storyboard */,
+				F2469CE4148E80A6002228C2 /* MainStoryboard_iPad.storyboard */,
+				F2469CCD148E80A5002228C2 /* Supporting Files */,
+			);
+			path = MAD4519;
+			sourceTree = "<group>";
+		};
+		F2469CCD148E80A5002228C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2469CCE148E80A5002228C2 /* MAD4519-Info.plist */,
+				F2469CCF148E80A5002228C2 /* InfoPlist.strings */,
+				F2469CD2148E80A5002228C2 /* main.m */,
+				F2469CD4148E80A5002228C2 /* MAD4519-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2469CF3148E80A6002228C2 /* MAD4519Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F2469CF9148E80A6002228C2 /* MAD4519Tests.h */,
+				F2469CFA148E80A6002228C2 /* MAD4519Tests.m */,
+				F2469CF4148E80A6002228C2 /* Supporting Files */,
+			);
+			path = MAD4519Tests;
+			sourceTree = "<group>";
+		};
+		F2469CF4148E80A6002228C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2469CF5148E80A6002228C2 /* MAD4519Tests-Info.plist */,
+				F2469CF6148E80A6002228C2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2469CC1148E80A5002228C2 /* MAD4519 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2469CFE148E80A6002228C2 /* Build configuration list for PBXNativeTarget "MAD4519" */;
+			buildPhases = (
+				F2469CBE148E80A5002228C2 /* Sources */,
+				F2469CBF148E80A5002228C2 /* Frameworks */,
+				F2469CC0148E80A5002228C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MAD4519;
+			productName = MAD4519;
+			productReference = F2469CC2148E80A5002228C2 /* MAD4519.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2469CEB148E80A6002228C2 /* MAD4519Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2469D01148E80A6002228C2 /* Build configuration list for PBXNativeTarget "MAD4519Tests" */;
+			buildPhases = (
+				F2469CE7148E80A6002228C2 /* Sources */,
+				F2469CE8148E80A6002228C2 /* Frameworks */,
+				F2469CE9148E80A6002228C2 /* Resources */,
+				F2469CEA148E80A6002228C2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2469CF2148E80A6002228C2 /* PBXTargetDependency */,
+			);
+			name = MAD4519Tests;
+			productName = MAD4519Tests;
+			productReference = F2469CEC148E80A6002228C2 /* MAD4519Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2469CB9148E80A5002228C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Cardinal Peak, LLC";
+			};
+			buildConfigurationList = F2469CBC148E80A5002228C2 /* Build configuration list for PBXProject "MAD4519" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F2469CB7148E80A5002228C2;
+			productRefGroup = F2469CC3148E80A5002228C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2469CC1148E80A5002228C2 /* MAD4519 */,
+				F2469CEB148E80A6002228C2 /* MAD4519Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2469CC0148E80A5002228C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2469CD1148E80A5002228C2 /* InfoPlist.strings in Resources */,
+				F2469CE3148E80A6002228C2 /* MainStoryboard_iPhone.storyboard in Resources */,
+				F2469CE6148E80A6002228C2 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2469CE9148E80A6002228C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2469CF8148E80A6002228C2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F2469CEA148E80A6002228C2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2469CBE148E80A5002228C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2469CD3148E80A5002228C2 /* main.m in Sources */,
+				F2469CD7148E80A5002228C2 /* AppDelegate.m in Sources */,
+				F2469CDA148E80A5002228C2 /* RootViewController.m in Sources */,
+				F2469CDD148E80A5002228C2 /* DataViewController.m in Sources */,
+				F2469CE0148E80A6002228C2 /* ModelController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2469CE7148E80A6002228C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2469CFB148E80A6002228C2 /* MAD4519Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2469CF2148E80A6002228C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2469CC1148E80A5002228C2 /* MAD4519 */;
+			targetProxy = F2469CF1148E80A6002228C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2469CCF148E80A5002228C2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2469CD0148E80A5002228C2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F2469CE1148E80A6002228C2 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2469CE2148E80A6002228C2 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		F2469CE4148E80A6002228C2 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2469CE5148E80A6002228C2 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		F2469CF6148E80A6002228C2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2469CF7148E80A6002228C2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2469CFC148E80A6002228C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2469CFD148E80A6002228C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2469CFF148E80A6002228C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MAD4519/MAD4519-Prefix.pch";
+				INFOPLIST_FILE = "MAD4519/MAD4519-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F2469D00148E80A6002228C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MAD4519/MAD4519-Prefix.pch";
+				INFOPLIST_FILE = "MAD4519/MAD4519-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F2469D02148E80A6002228C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MAD4519.app/MAD4519";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MAD4519/MAD4519-Prefix.pch";
+				INFOPLIST_FILE = "MAD4519Tests/MAD4519Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F2469D03148E80A6002228C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MAD4519.app/MAD4519";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MAD4519/MAD4519-Prefix.pch";
+				INFOPLIST_FILE = "MAD4519Tests/MAD4519Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2469CBC148E80A5002228C2 /* Build configuration list for PBXProject "MAD4519" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2469CFC148E80A6002228C2 /* Debug */,
+				F2469CFD148E80A6002228C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2469CFE148E80A6002228C2 /* Build configuration list for PBXNativeTarget "MAD4519" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2469CFF148E80A6002228C2 /* Debug */,
+				F2469D00148E80A6002228C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F2469D01148E80A6002228C2 /* Build configuration list for PBXNativeTarget "MAD4519Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2469D02148E80A6002228C2 /* Debug */,
+				F2469D03148E80A6002228C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2469CB9148E80A5002228C2 /* Project object */;
+}
